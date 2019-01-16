@@ -144,7 +144,7 @@ def user_stats(df):
     except:
         print('No available user types data')
     try:
-        # Display counts of gender
+        # Display counts of gender, based on the availability of such data
         gender_count = df['Gender'].value_counts()
         print('The gender count is:', gender_count)
     except:
